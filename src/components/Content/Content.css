@@ -1,0 +1,55 @@
+.content {
+  margin: 50px 0 0 300px;
+}
+
+.content section {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.content section h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+.content section .title {
+  color: #ff3f34;
+}
+
+.content section button {
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  border-radius: 17.5px;
+  background: #f531ef;
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  margin-bottom: 10px;
+}
+
+.content section button:hover {
+  background: #000;
+}
+
+.content section:nth-child(2) button {
+  margin-right: 10px;
+  background: #2980b9;
+  border-radius: 10px;
+}
+
+.content section:nth-child(3) input {
+  margin-right: 10px;
+}
+
+.content section:nth-child(3) label {
+  display: inline-block;
+  height: 30px;
+  width: 100px;
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  text-transform: capitalize;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+/*# sourceMappingURL=Content.css.map */
